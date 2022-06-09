@@ -1,0 +1,20 @@
+{
+  "name": "operacion_fuego_quasar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfgomezc/Operacion_Fuego_Quasar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfgomezc/Operacion_Fuego_Quasar/issues"
+  },
+  "homepage": "https://github.com/sfgomezc/Operacion_Fuego_Quasar#readme"
+}
