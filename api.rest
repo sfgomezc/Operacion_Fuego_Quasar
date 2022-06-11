@@ -1,0 +1,41 @@
+
+###
+GET http://localhost:5000/api/v1
+
+
+
+###
+POST  http://localhost:5000/api/v1/topsecret/
+Content-Type: application/json
+
+{
+    "satellites": [
+        {
+            "name": "kenobi",
+            "distance": 100.0,
+            "message": ["este","","","mensaje",""]
+        },
+        {
+            "name": "skywalker",
+            "distance": 115.5,
+            "message": ["","es","","","secreto"]
+        },
+        {
+            "name": "sato",
+            "distance": 142.7,
+            "message": ["este","","un","",""]
+        }
+    ]
+}
+
+###
+POST http://localhost:5000/api/v1/topsecret_split/kenobi
+Content-Type: application/json
+
+{
+    "distance": 200.0,
+    "message": ["este","","","mensaje",""]
+}
+
+###
+GET http://localhost:5000/api/v1/topsecret_split/
