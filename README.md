@@ -20,6 +20,12 @@ Instalar (en ambiente Dev) modulo Nodemon para reiniciar el servidor cuando se h
 npm i nodemon -D
 ```
 
+Instalar (en ambiente Dev) modulo Supertest modulo de node que permite hacer test de una Rest API, para hacer las peticiones.
+Instalar (en ambiente Dev) modulo Jest Framework que permite compara objetos, si un array tiene elementos, conocer el tipo de dato, es decir, comparar las respuestas de las peticiones.
+```bash
+npm i -D supertest jest
+```
+
 Instalar modulo node-trilateration que permite técnica geométrica para determinar la posición de un objeto conociendo su distancia a 3 puntos de referencia
 ```bash
 npm i node-trilateration
