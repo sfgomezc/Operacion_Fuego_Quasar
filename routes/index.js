@@ -1,4 +1,4 @@
-const quasarController = require('../controllers/quasar-controller');
+const quasarController = require('../controllers/quasarController');
 
 const { Router } = require('express');
 const router = Router();
