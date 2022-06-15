@@ -31,16 +31,16 @@ Instalar modulo node-trilateration que permite técnica geométrica para determi
 npm i node-trilateration
 ```
 
-Ejecutar el archivo js que sirve como server
+Ejecutar el proyecto con el archivo js que sirve como server
 ```bash
 node server.js
 ```
-Ejecutar el archivo js que sirve como server con Nodemon
+Ejecutar el proyecto con el archivo js que sirve como server con Nodemon
 ```bash
 nodemon server.js
 ```
 
-Ejecutar el comando dev, que se configura en el package.json (para ejecutar el js que sirve como server)
+Ejecutar el comando `dev` de los scripts, que se configura en el package.json (para ejecutar como server de desarrollo)
 ```bash
 npm run dev
 ```
@@ -49,3 +49,8 @@ npm run dev
 ## Pruebas
 
 Las pruebas se pueden realizar en un Client Rest como Postman pero en este caso se prueba con la extensión de Visual Code REST Client, ejecutandolo desde el archivos `api.rest`.
+
+Ejecutar el comando `test` de los scripts, que se configura en el package.json (para ejecutar las pruebas unitarias)
+```bash
+npm run test
+```
