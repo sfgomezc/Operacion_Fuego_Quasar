@@ -12,7 +12,7 @@ const topsecret = async (req, res) => {
     }
     catch (ex) {
         console.log(ex);
-        return res.status(500).json({ ex });
+        return res.status(404).json({ ex });
     }
 }
 
@@ -31,7 +31,7 @@ const topsecret_split_post = async (req, res) => {
     }
     catch(ex) {
         console.log(ex);
-        return res.status(500).json({ ex });
+        return res.status(404).json({ ex });
     }
 }
 
@@ -43,7 +43,7 @@ const topsecret_split_get = async (req, res) => {
     }
     catch (ex) {
         console.log(ex);
-        return res.status(500).json({ ex });
+        return res.status(404).json({ ex });
     }
 }
 
