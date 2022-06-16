@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npx jest --forceExit",
     "dev": "nodemon server.js",
-    "prod": "node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
