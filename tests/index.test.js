@@ -11,7 +11,7 @@ describe('testing endpoints', () => {
     describe('testing "/" GET method', () => {
 
         test('Should respond with a 200 status code', async () => {
-            const response = await request(app).get('/')
+            const response = await request(app).get('/api/v1')
             expect(response.status).toBe(200)
         });
     });
@@ -19,13 +19,13 @@ describe('testing endpoints', () => {
     describe('testing "topsecret" POST method', () => {
 
         test('returns 400 - Bad Request when body is empty', async () => {
-            await request(app).post('/topsecret')
+            await request(app).post('/api/v1/topsecret')
                 .expect(500)
                 .expect('Content-Type', /application\/json/)
         });
 
         test('Should respond with a 200 status code', async () => {
-            const response = await request(app).post('/topsecret').send(
+            const response = await request(app).post('/api/v1/topsecret').send(
                 {
                     satellites: [
                         {
@@ -54,7 +54,7 @@ describe('testing endpoints', () => {
         
         test('Should respond with a 200 status code', async () => {
             await request(app)
-                .get('/topsecret_split')
+                .get('/api/v1/topsecret_split')
                 .expect(200)
                 .expect('Content-Type', /application\/json/)
                 .then(res => {
