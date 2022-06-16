@@ -70,6 +70,7 @@ https://operacion-fuego-quasar.azurewebsites.net/api/v1
 https://operacion-fuego-quasar.azurewebsites.net/api/v1/topsecret
 
 **Respuestas**
+
 Http Status 200: Si fue posible determinar la posición y descifrar el mensaje de auxilio.
 
 Http Status 404: No se pudo determinar la posición de la nave ni el  mensaje de auxilio.
@@ -130,6 +131,7 @@ https://operacion-fuego-quasar.azurewebsites.net/api/v1/topsecret_split/kenobi/
 
 
 **Respuestas**
+
 Http Status 200: Si fue posible determinar la posición y descifrar el mensaje de auxilio.
 
 Http Status 404: No se pudo determinar la posición de la nave ni el  mensaje de auxilio.
@@ -175,6 +177,7 @@ HTTP Status 404
 https://operacion-fuego-quasar.azurewebsites.net/api/v1/topsecret_split/
 
 **Respuestas**
+
 Http Status 200: Si fue posible determinar la posición y descifrar el mensaje de auxilio.
 
 Http Status 404: No se pudo determinar la posición de la nave ni el  mensaje de auxilio.
