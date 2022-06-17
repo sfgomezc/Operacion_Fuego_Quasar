@@ -56,6 +56,13 @@ Ejecutar el comando `test` de los scripts, que se configura en el package.json (
 npm run test
 ```
 
+### Pruebas desde Postman
+
+En enlace se encuentra publicado las colecciones y payload para probar los endpoint del challenge:
+
+https://www.postman.com/sgomez-postman/workspace/my-public-workspace/collection/2851524-8f5ebf94-7b06-49dc-af61-6442bf874ab6?action=share&creator=2851524
+
+
 ## Cloud Computing
 
 La API se despliega en el servicio de **Azure** :
