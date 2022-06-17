@@ -200,3 +200,23 @@ HTTP Status 404
 }
 ```
 
+
+### Documentación
+
+
+#### Trilateración
+
+La trilateración es un método matemático para determinar las posiciones relativas de objetos usando la geometría de triángulos de forma análoga a la triangulación. [Más información en línea](https://es.wikipedia.org/wiki/Trilateraci%C3%B3n)
+
+A simple solution to the trivial problem of trilateration:
+
+https://www.npmjs.com/package/node-trilateration
+
+#### Deploy Node en Azure
+
+En la carpeta de `docs` se encuentra la documentación de cómo desplegar el proyecto en Azure.
+
+#### Challenge
+
+En la carpeta de `docs` se encuentra documento con la prueba.
+
